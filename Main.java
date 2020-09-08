@@ -29,5 +29,12 @@ class Main {
     System.out.println("orange: " + orange);
     System.out.println("red: " + red);
     System.out.println("yellow: " + yellow);
+
+    double sum = blue + brown + green + orange + red + yellow;
+    System.out.println("Sum: " + sum);
+
+    if(blue > brown && green > orange) System.out.println("Blue over Brown and Green over Orange.");
+    if(brown <= red) System.out.println("Brown is less than or equal to Red.");
+    if(sum == total) System.out.println("Sum is equal to total.");
     }
 }
